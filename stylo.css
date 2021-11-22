@@ -1,0 +1,22 @@
+* { margin: 0; 
+    padding: 0; 
+    background-color: rgb(225, 252, 252); 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    box-sizing: border-box;
+}
+
+
+ul { 
+    list-style: none; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+
+
+
+div.box {
+    width: 350px;
+    text-align: center;
+    display: inline-block
+}
