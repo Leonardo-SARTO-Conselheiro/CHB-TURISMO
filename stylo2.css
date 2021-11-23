@@ -3,12 +3,14 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     background: #d7dfd9;
+
 }
 .container{
-
     display: grid;
+
 }
  header {
+
     display: flex;
      height: auto;
      width: auto;
@@ -25,9 +27,13 @@ html, body {
      display: flex;
      align-items: center;
      padding: 0;
-     font-size: 20px;
+     font-size: 25px;
  }
 
+ nav p {
+    border: thick double black;
+    padding: 10px;
+ }
 
  main {
      height: 325px;
@@ -36,28 +42,30 @@ html, body {
      display: inline-block;
      padding: 25px;
      font-size: 20px;
+    
  }
+
 footer {
     height: 140px;
     width:auto;
     text-align: center;
-    padding: 25px
+    padding: 25px;
+    font-size: 20px;
 }
+
+div.box {
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 1px 1px 10px 1px black;
+
+}
+
 ul {
 
     text-align: center;
     list-style: none;
     
-}
-input {
-    text-align: center;
-}
-
-div.box {
-    width: 350px;
-    text-align: center;
-    display: inline-block;
-    box-shadow: 1px 1px 10px 1px black ;
 }
 
 header ul {
@@ -68,17 +76,3 @@ header ul li {
     padding: 5px;
 }
 
-nav ul {
-    display: flex;
-    padding: 5px;   
-    border: thick double black;
-    
-}
- 
-nav ul li {
-    padding: 5px;
-}
-
-span {
-    border: thin black
-}
