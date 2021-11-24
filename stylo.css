@@ -1,14 +1,15 @@
 html, body {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #d7dfd9;
 }
 .container{
-
     display: grid;
 }
- header {
+
+header {
     display: flex;
      height: auto;
      width: auto;
@@ -16,8 +17,22 @@ html, body {
      justify-content: space-between;
      padding: 5px;
      
- }
- nav {
+}
+    header ul {
+        display: flex;
+}
+
+    header ul li {
+        padding: 5px;
+        text-decoration: none;
+}
+
+    header ul li a {
+        text-decoration: none;
+        color: black;
+}
+
+nav {
      height: auto;
      width: auto;
      justify-content: center;
@@ -28,55 +43,58 @@ html, body {
      font-size: 20px;
  }
 
+    nav ul {
+        display: flex;
+        padding: 5px;   
+        border: thick double black; 
+}
+ 
+    nav ul li {
+        padding: 5px;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+}
 
  main {
-     height: 325px;
+     height: 475px;
      width:auto;
      text-align: center;
      display: inline-block;
      padding: 25px;
      font-size: 20px;
+     justify-content: space-around;   
  }
+    main a {
+        text-decoration: none;
+        color: black;
+}
+
 footer {
     height: 140px;
     width:auto;
     text-align: center;
     padding: 25px
 }
+
 ul {
 
     text-align: center;
     list-style: none;
-    
 }
+
 input {
     text-align: center;
 }
 
 div.box {
-    width: 350px;
+    width: 395px;
     text-align: center;
     display: inline-block;
     box-shadow: 1px 1px 10px 1px black ;
-}
 
-header ul {
-    display: flex;
-}
-
-header ul li {
-    padding: 5px;
-}
-
-nav ul {
-    display: flex;
-    padding: 5px;   
-    border: thick double black;
-    
-}
- 
-nav ul li {
-    padding: 5px;
 }
 
 span {

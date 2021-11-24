@@ -1,11 +1,9 @@
 html, body {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #d7dfd9;
-}
-.container{
-    display: grid;
 }
 
  header {
@@ -15,7 +13,7 @@ html, body {
      display: flex;
      justify-content: space-between;
      padding: 5px;
- }
+}
 
  nav {
      height: auto;
@@ -25,42 +23,44 @@ html, body {
      display: flex;
      align-items: center;
      padding: 0;
-     font-size: 25px;
- }
-
- nav p {
-    border: thick double black;
-    padding: 10px;
+     font-size: 20px;
  }
 
  main {
-     height: 325px;
+     height: 475px;
      width:auto;
      text-align: center;
      display: inline-block;
      padding: 25px;
      font-size: 20px;
-     
+     justify-content: space-around;
  }
 
 footer {
     height: 140px;
     width:auto;
     text-align: center;
-    padding: 25px;
-    font-size: 20px;
-}
-
-div.box {
-    width: 400px;
-    text-align: center;
-    display: inline-block;
-    box-shadow: 1px 1px 10px 1px black;
+    padding: 25px
 }
 
 ul {
+
     text-align: center;
     list-style: none;
+}
+.container{
+    display: grid;
+}
+
+input {
+    text-align: center;
+}
+
+div.box {
+    width: 395px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 1px 1px 10px 1px black ;
 }
 
 header ul {
@@ -69,6 +69,7 @@ header ul {
 
 header ul li {
     padding: 5px;
+    text-decoration: none;
 }
 
 header ul li a {
@@ -76,3 +77,21 @@ header ul li a {
     color: black;
 }
 
+nav ul {
+    display: flex;
+    padding: 5px;   
+    border: thick double black; 
+}
+ 
+nav ul li {
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    border: thin black
+}
