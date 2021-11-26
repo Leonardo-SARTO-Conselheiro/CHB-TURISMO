@@ -95,3 +95,7 @@ nav ul li a {
 span {
     border: thin black
 }
+
+button {
+    padding: 10px;
+}

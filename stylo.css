@@ -16,6 +16,7 @@ header {
      display: flex;
      justify-content: space-between;
      padding: 5px;
+
      
 }
     header ul {
@@ -41,6 +42,7 @@ nav {
      align-items: center;
      padding: 0;
      font-size: 20px;
+     margin-bottom: 50px;
  }
 
     nav ul {
@@ -66,6 +68,7 @@ nav {
      padding: 25px;
      font-size: 20px;
      justify-content: space-around;   
+     margin-bottom: 50px;
  }
     main a {
         text-decoration: none;
@@ -76,8 +79,11 @@ footer {
     height: 140px;
     width:auto;
     text-align: center;
-    padding: 25px
+    padding: 50px;
+    font-size: 25px;
+    
 }
+
 
 ul {
 
@@ -100,3 +106,16 @@ div.box {
 span {
     border: thin black
 }
+
+ button {
+     padding: 10px;
+ }
+
+
+  @media only screen and (max-width 480px) {
+    main {
+        max-width: 480px;
+    }
+    
+
+  }
